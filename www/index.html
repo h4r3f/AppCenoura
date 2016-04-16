@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>S&#xF3; de Cenoura Gar&#xE7;om</title>
+    <link rel="stylesheet" href="icons/material.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="topo-fixo z-depth-1">
+<div class="yellow darken-4 white-text valign-wrapper">
+	<h5 class="titulo">S&#xF3; de Cenoura</h5>
+	<div>
+		<i class="material-icons waves-effect waves-light waves-circle scan-qrcode">camera</i>
+		<i data-activates="submenu" datas-gutter="5" data-contrainwidth="false" class="material-icons waves-effect waves-light waves-circle dropdown-button">more_vert</i>
+	</div>
+	
+	<ul class="dropdown-content" id="submenu">
+		<li><a class="black-text acao-limpar">Limpar</a></li>
+	</ul>
+</div>
+
+
+<ul class="tabs yellow darken-4">
+	<li class="tab"><a href="#bolos" class="white-text waves-effect waves-light">Bolos</a></li>
+	<li class="tab"><a href="#bebidas" class="white-text waves-effect waves-light">Bebidas</a></li>
+</ul>
+</div>
+<div class="section" id="bolos">
+<h6 class="container brown-text">Peda&#xE7;os</h6>
+	<div class="collection">
+		<a class="collection-item waves-effect black-text">S&#xF3; de Cenoura</a>
+		<a class="collection-item waves-effect black-text">Brigadeiro</a>
+		<a class="collection-item waves-effect black-text">Morango</a>
+		<a class="collection-item waves-effect black-text">Nutella</a>
+	</div>
+
+	<h6 class="container">Inteiros</h6>
+	<div class="collection brown-text">
+		<a class="collection-item waves-effect black-text">S&#xF3; de Cenoura</a>
+		<a class="collection-item waves-effect black-text">Brigadeiro</a>
+		<a class="collection-item waves-effect black-text">Morango</a>
+		<a class="collection-item waves-effect black-text">Nutella</a>
+	</div>
+</div>
+
+<div class="section" id="bebidas">
+<h6 class="container brown-text">Cafes</h6>
+	<div class="collection">
+		<a class="collection-item waves-effect black-text">Cafe</a>
+		<a class="collection-item waves-effect black-text">Expresso</a>
+		<a class="collection-item waves-effect black-text">Leite</a>
+		<a class="collection-item waves-effect black-text">Vodca</a>
+	</div>
+<h6 class="container brown-text">Refris</h6>
+	<div class="collection">
+		<a class="collection-item waves-effect black-text">Coca</a>
+		<a class="collection-item waves-effect black-text">Guarana</a>
+		<a class="collection-item waves-effect black-text">Soda</a>
+		<a class="collection-item waves-effect black-text">Tequila</a>
+	</div>
+</div>
+
+<div class="fixed-action-btn">
+	<a href="#confirmacao" id="confirmar" class="btn-floating btn-large waves-effect waves-light brown modal-trigger"><i class="material-icons">done</i></a>
+</div>
+
+<div id="confirmacao" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h5>Resumo do pedido</h5>
+        <input id="numero-mesa" type="number" class="validate" placeholder="N&#xFA;mero da mesa">
+        <blockquote id="resumo"></blockquote>
+    </div>
+    <div class="modal-footer">
+        <button class="btn deep-orange waves-effect waves-light modal-close acao-finalizar">Pedir</button>
+        <button class="acao-limpar btn-flat waves-effect waves-red modal-close">Cancelar</button>
+    </div>
+</div>
+	<script src="cordova.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

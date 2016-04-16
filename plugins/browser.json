@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.ecosoitic"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "br.com.ecosoitic"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "br.com.ecosoitic"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "br.com.ecosoitic"
+        }
+    },
+    "dependent_plugins": {}
+}
